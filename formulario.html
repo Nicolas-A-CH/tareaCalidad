@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Compra</h1>
+    <form action="tareaCalidad.php" method="post">
+        <label for="np">Nombre del Producto:</label>
+        <input type="text" id="np" name="np" required>
+
+        <label for="cant">Cantidad:</label>
+        <input type="number" id="cant" name="cant" required>
+
+        <label for="pu">Precio Unitario:</label>
+        <input type="number" id="pu" name="pu" step="0.01" required>
+
+        <button type="submit">Generar Factura</button>
+    </form>
+</body>
+</html>
